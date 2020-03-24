@@ -1,0 +1,24 @@
+{
+    "name": "brij-fintech/brij",
+    "description": "An API library for brij fintech.",
+    "keywords": ["BRIJ fintech", "composer", "package"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Brian Muigai",
+            "email": "brianmuigai1@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "brij-fintech\\brij\\": "src/"
+        }
+    }
+}
